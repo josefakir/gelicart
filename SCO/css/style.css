@@ -7,18 +7,7 @@ blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
 table{border-collapse:collapse;border-spacing:0}
 @font-face{font-family:'news_gothic_stdbold';src:url(../fonts/news_gothic_std_bold-webfont.woff2) format("woff2"),url(../fonts/news_gothic_std_bold-webfont.woff) format("woff");font-weight:400;font-style:normal}
 @font-face{font-family:'news_gothicregular';src:url(../fonts/ufonts.com_news-gothic-regular-webfont.woff2) format("woff2"),url(../fonts/ufonts.com_news-gothic-regular-webfont.woff) format("woff");font-weight:400;font-style:normal}
-@font-face {
-    font-family:'Orator Std';
-    src: url('../OratorStd.eot');
-    src: url('../OratorStd.eot?#iefix') format('embedded-opentype'),
-        url('../OratorStd.woff2') format('woff2'),
-        url('../OratorStd.woff') format('woff'),
-        url('../OratorStd.svg#OratorStd') format('svg');
-    font-weight: 400;
-    font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0020-00FE;
-}
+@font-face{font-family:'Orator Std';src:url(../OratorStd.eot);src:url(../OratorStd.eot?#iefix) format("embedded-opentype"),url(../OratorStd.woff2) format("woff2"),url(../OratorStd.woff) format("woff"),url(../OratorStd.svg#OratorStd) format("svg");font-weight:400;font-style:normal;font-stretch:normal;unicode-range:U+0020-00FE}
 body{font-family:'news_gothic_stdbold'}
 #contmenulateral{position:relative;z-index:3}
 div#wrap{width:979px;height:629px;position:relative;overflow:hidden}
@@ -39,7 +28,7 @@ a#triggersiguiente{width:45px;height:45px;background:url(../img/backboton.png);d
 #bordemenuderecha{width:9px;height:515px;background:url(../img/bordemenuderecha.png);position:absolute;top:73px;left:90px}
 #bordemenuizquierda{width:9px;height:515px;background:url(../img/bordemenuizquierda.png);position:absolute;top:73px;left:10px}
 #logosanofi{position:absolute;right:10px;top:10px}
-#areadetrabajo p{font-family:'news_gothicregular';color:#666;line-height:normal;text-align:justify;margin-bottom:20px; position: relative; z-index: 2}
+#areadetrabajo p{font-family:'news_gothicregular';color:#666;line-height:normal;text-align:justify;margin-bottom:20px;position:relative;z-index:2}
 #areadetrabajo ul{margin-bottom:20px;list-style:outside;padding-left:40px}
 #areadetrabajo ul li{font-family:'news_gothicregular';color:#666;line-height:normal;text-align:justify}
 strong{font-family:'news_gothic_stdbold'}
@@ -57,6 +46,7 @@ strong{font-family:'news_gothic_stdbold'}
 #areadetrabajo{width:800px;height:485px;margin-left:125px;margin-top:30px}
 .subtitulo{background:url(../img/backsubtitulo1.png);width:312px;height:24px;color:#fff;padding-left:10px;background-repeat:no-repeat;padding-top:8px;margin-bottom:10px;margin-left:-26px}
 .subtitulo2{background:url(../img/backsubtitulo2.png);width:291px;height:24px;color:#fff;padding-left:10px;background-repeat:no-repeat;padding-top:8px;margin-top:-10px;margin-left:-26px}
+.subtitulo3{background:url(../img/backsubtitulo3.png);width:686px;height:32px;color:#fff;padding-left:10px;background-repeat:no-repeat;padding-top:8px;margin-top:-10px;margin-left:-26px}
 .marca{color:#a31e4a;font-family:'news_gothic_stdbold'}
 .mitad{width:376px;border-right:2px solid #666;padding-right:20px;height:80%;float:left}
 table{position:relative;z-index:2;font-family:'news_gothicregular';font-size:14px;width:90%;margin:0 auto}
@@ -66,74 +56,46 @@ table tbody tr td{padding:5px;vertical-align:middle;line-height:normal;border:1p
 textarea{width:500px;height:50px;border:none;outline:none}
 img#m1s1-1{position:absolute;left:223px;top:197px}
 .separador1{width:500px;height:2px;background:#7f7f7f}
-.separador2{width: 500px; height: 2px; background: #EEBDDA}
+.separador2{width:500px;height:2px;background:#EEBDDA}
 #cajaizqm1s1-5{width:70px;height:60px;background:#a51e4a;position:absolute;top:370px;left:99px}
 #roundm1s1-5{border:8px solid #dd6993;-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;padding-top:20px;padding-right:20px;position:absolute;left:145px;top:315px;width:600px;background:#fff;z-index:2}
 #round-m1-s6{border:8px solid #a51e4a;position:relative;z-index:2;-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;padding:20px;width:535px;margin:0 auto;background:#e2e2e2}
 .sacropenia{background:url(../img/Sarcopenia.png);width:979px;height:498px;position:absolute;z-index:0;top:73px}
 .sacropenia2{background:url(../img/Sarcopenia2.jpg);width:979px;height:498px;position:absolute;z-index:0;top:73px}
-img.m2conteo {
-    margin: 9px 0;
-}
+img.m2conteo{margin:9px 0}
+a#m2figura22{position:absolute;margin-left:44px;margin-top:-50px}
+.m2figura22{position:absolute;top:50%;left:50%;margin-top:-257px;margin-left:-445px}
+a#m2figura23{position:absolute;margin-left:135px;margin-top:-50px}
+#overlay{width:979px;height:629px;position:fixed;background:url(../img/pixel.png);z-index:4;display:none}
+.orator{font-family:'Orator Std'!important}
+a#m2figura28{position:absolute;right:18px;top:114px}
+#m2figura34{display:block;margin-left:100px}
+.m2figura28{position:absolute;top:50%;left:50%;margin-top:-217px;margin-left:-340px}
+.tac{text-align:center}
+a#m2figura29{position:absolute;left:443px;top:258px}
+a#m2figura30{position:absolute;left:565px;top:314px}
+img#m2figura29img{position:absolute;left:98px;top:315px;display:none}
+img#m2figura30img{position:absolute;right:0;top:130px;display:none}
 
-a#m2figura22 {
+
+
+
+img.m2figura34 {
     position: absolute;
-    margin-left: 44px;
-    margin-top: -50px;
+    left: 50%;
+    top: 50%;
+    margin-left: -325px;
+    margin-top: -157px;
 }
-.m2figura22{
+#m2figuraslide24{
         position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -257px;
-    margin-left: -445px;
-}
-a#m2figura23 {
-    position: absolute;
-    margin-left: 135px;
-    margin-top: -50px;
-}
-#overlay{    width: 979px;
-    height: 629px;position: fixed; background: url(../img/pixel.png);    z-index: 4; display: none}
-.orator{font-family:'Orator Std' !important;}
-a#m2figura28 {
-    position: absolute;
-    right: 18px;
-    top: 114px;
+    right: 74px;
+    top: 233px;
 }
 
-
-
-.m2figura28{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -217px;
-    margin-left: -340px;
-}
-.tac{text-align: center;}
-a#m2figura29 {
-    position: absolute;
-    left: 443px;
-    top: 258px;
-}
-
-a#m2figura30 {
-    position: absolute;
-    left: 565px;
-    top: 314px;
-}
-
-img#m2figura29img {
-    position: absolute;
-    left: 98px;
-    top: 315px;
-    display: none
-}
-
-img#m2figura30img {
-    position: absolute;
+#m2figuraslide24img{
+        position: absolute;
     right: 0;
-    top: 130px;
+    top: 340px;
     display: none
 }

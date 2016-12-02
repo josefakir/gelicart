@@ -8,10 +8,7 @@ $(document).ready(function(){
 	animaciones = [
 		'pulse',
 		'rubberBand',
-		'shake',
-		'headShake',
 		'tada',
-		'wobble',
 		'jello',
 		'fadeIn',
 		'fadeInDown',
@@ -96,11 +93,33 @@ $(document).ready(function(){
 		$('#overlay').fadeIn('fast');
 	});
 	$('#m2figura29').click(function(e){
+		e.preventDefault();
 		$('#m2figura29img').toggle();
 	});
 	$('#m2figura30').click(function(e){
+		e.preventDefault();
 		$('#m2figura30img').toggle();
 	});
+	$('#m2figura31').click(function(e){
+		e.preventDefault();
+		$('#m2figura32img').hide();
+		$('#m2figura31img').toggle();
+	});
+	$('#m2figura32').click(function(e){
+		e.preventDefault();
+		$('#m2figura31img').hide();
+		$('#m2figura32img').toggle();
+	});
+	$('#m2figura34').click(function(e){
+		e.preventDefault();
+		$('#overlay').html('<img class="m2figura34" src="img/paginas/2-19/3.png">');
+		$('#overlay').fadeIn('fast');
+	});
+	$('#m2figuraslide24').click(function(e){
+		e.preventDefault();
+		$('#m2figuraslide24img').toggle();
+	});
+
 	$('#overlay').click(function(){
 		$('#overlay').fadeOut('fast');
 	})
