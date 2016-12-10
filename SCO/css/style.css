@@ -47,6 +47,9 @@ strong{font-family:'news_gothic_stdbold'}
 .subtitulo{background:url(../img/backsubtitulo1.png);width:312px;height:24px;color:#fff;padding-left:10px;background-repeat:no-repeat;padding-top:8px;margin-bottom:10px;margin-left:-26px}
 .subtitulo2{background:url(../img/backsubtitulo2.png);width:291px;height:24px;color:#fff;padding-left:10px;background-repeat:no-repeat;padding-top:8px;margin-top:-10px;margin-left:-26px}
 .subtitulo3{background:url(../img/backsubtitulo3.png);width:686px;height:32px;color:#fff;padding-left:10px;background-repeat:no-repeat;padding-top:8px;margin-top:-10px;margin-left:-26px}
+.subtitulo4{background:url(../img/backsubtitulo4.png);width:418px;height:24px;color:#fff;padding-left:10px;background-repeat:no-repeat;padding-top:8px;margin-bottom:10px;margin-left:-26px}
+.subtitulo5{background:url(../img/backsubtitulo5.png);width:720px;height:24px;color:#fff;padding-left:10px;background-repeat:no-repeat;padding-top:8px;margin-bottom:10px;margin-left:-26px}
+
 .marca{color:#a31e4a;font-family:'news_gothic_stdbold'}
 .mitad{width:376px;border-right:2px solid #666;padding-right:20px;height:80%;float:left}
 table{position:relative;z-index:2;font-family:'news_gothicregular';font-size:14px;width:90%;margin:0 auto}
@@ -62,7 +65,7 @@ img#m1s1-1{position:absolute;left:223px;top:197px}
 #round-m1-s6{border:8px solid #a51e4a;position:relative;z-index:2;-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;padding:20px;width:535px;margin:0 auto;background:#e2e2e2}
 .sacropenia{background:url(../img/Sarcopenia.png);width:979px;height:498px;position:absolute;z-index:0;top:73px}
 .sacropenia2{background:url(../img/Sarcopenia2.jpg);width:979px;height:498px;position:absolute;z-index:0;top:73px}
-img.m2conteo{margin:9px 0}
+img.m2conteo{margin:5px 0}
 a#m2figura22{position:absolute;margin-left:44px;margin-top:-50px}
 .m2figura22{position:absolute;top:50%;left:50%;margin-top:-257px;margin-left:-445px}
 a#m2figura23{position:absolute;margin-left:135px;margin-top:-50px}
