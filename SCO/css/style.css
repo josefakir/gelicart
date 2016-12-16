@@ -32,15 +32,15 @@ a#triggersiguiente{width:45px;height:45px;background:url(../img/backboton.png);d
 #areadetrabajo ul{margin-bottom:20px;list-style:outside;padding-left:40px}
 #areadetrabajo ul li{font-family:'news_gothicregular';color:#666;line-height:normal;text-align:justify}
 strong{font-family:'news_gothic_stdbold'}
-.delay2{-webkit-animation-delay:.2s}
-.delay3{-webkit-animation-delay:.4s}
-.delay4{-webkit-animation-delay:.6s}
-.delay5{-webkit-animation-delay:.8s}
-.delay6{-webkit-animation-delay:1s}
-.delay7{-webkit-animation-delay:1.2s}
-.delay8{-webkit-animation-delay:1.4s}
-.delay9{-webkit-animation-delay:1.6s}
-.delay10{-webkit-animation-delay:1.8s}
+.delay2{-webkit-animation-delay:.4s}
+.delay3{-webkit-animation-delay:.8s}
+.delay4{-webkit-animation-delay:1.2s}
+.delay5{-webkit-animation-delay:1.6s}
+.delay6{-webkit-animation-delay:2s}
+.delay7{-webkit-animation-delay:2.4s}
+.delay8{-webkit-animation-delay:2.8s}
+.delay9{-webkit-animation-delay:3.2s}
+.delay10{-webkit-animation-delay:3.6s}
 .titulo{font-size:64px;color:#a31e4a;margin-top:20px;margin-bottom:20px}
 .titulomodulo{font-size:47px;color:#a31e4a;margin-top:200px;text-align:center;display:block;position:absolute;width:84%}
 #areadetrabajo{width:800px;height:485px;margin-left:125px;margin-top:30px}
