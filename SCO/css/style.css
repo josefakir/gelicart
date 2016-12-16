@@ -1,0 +1,104 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+@font-face{font-family:'news_gothic_stdbold';src:url(../fonts/news_gothic_std_bold-webfont.woff2) format("woff2"),url(../fonts/news_gothic_std_bold-webfont.woff) format("woff");font-weight:400;font-style:normal}
+@font-face{font-family:'news_gothicregular';src:url(../fonts/ufonts.com_news-gothic-regular-webfont.woff2) format("woff2"),url(../fonts/ufonts.com_news-gothic-regular-webfont.woff) format("woff");font-weight:400;font-style:normal}
+@font-face{font-family:'Orator Std';src:url(../OratorStd.eot);src:url(../OratorStd.eot?#iefix) format("embedded-opentype"),url(../OratorStd.woff2) format("woff2"),url(../OratorStd.woff) format("woff"),url(../OratorStd.svg#OratorStd) format("svg");font-weight:400;font-style:normal;font-stretch:normal;unicode-range:U+0020-00FE}
+body{font-family:'news_gothic_stdbold'}
+#contmenulateral{position:relative;z-index:3}
+div#wrap{width:979px;height:629px;position:relative;overflow:hidden}
+div#menu{width:979px;height:73px;background:url(../img/backmenu.png);float:left}
+div#content{width:979px;height:515px;float:left}
+div#footer{width:979px;height:41px;background:url(../img/backfooter.png);float:left;position:relative}
+a#triggermenu{width:45px;height:45px;background:url(../img/backboton.png);display:block;position:absolute;top:15px;left:25px}
+#divisordoble{position:absolute;left:90px}
+a#triggerinfo{width:45px;height:45px;background:url(../img/backboton.png);display:block;position:absolute;top:15px;left:120px}
+a#triggerayuda{width:45px;height:45px;background:url(../img/backboton.png);display:block;position:absolute;top:15px;left:170px}
+#divisorizq{position:absolute;right:150px}
+#divisorder{position:absolute;right:20px}
+a#triggeranterior{width:45px;height:45px;background:url(../img/backboton.png);display:block;position:absolute;top:15px;right:95px}
+a#triggersiguiente{width:45px;height:45px;background:url(../img/backboton.png);display:block;position:absolute;top:15px;right:40px}
+#menulateral{width:70px;position:absolute;left:19px;top:73px}
+#menulateral ul li{display:table}
+#menulateral ul li a{text-align:center;height:100px;display:table-cell;vertical-align:middle;width:70px;color:#48a0b3;text-decoration:none;border-bottom:2px solid #5e5e5e;background:#fff}
+#bordemenuderecha{width:9px;height:515px;background:url(../img/bordemenuderecha.png);position:absolute;top:73px;left:90px}
+#bordemenuizquierda{width:9px;height:515px;background:url(../img/bordemenuizquierda.png);position:absolute;top:73px;left:10px}
+#logosanofi{position:absolute;right:10px;top:10px}
+#areadetrabajo p{font-family:'news_gothicregular';color:#666;line-height:normal;text-align:justify;margin-bottom:20px;position:relative;z-index:2}
+#areadetrabajo ul{margin-bottom:20px;list-style:outside;padding-left:40px}
+#areadetrabajo ul li{font-family:'news_gothicregular';color:#666;line-height:normal;text-align:justify}
+strong{font-family:'news_gothic_stdbold'}
+.delay2{-webkit-animation-delay:.2s}
+.delay3{-webkit-animation-delay:.4s}
+.delay4{-webkit-animation-delay:.6s}
+.delay5{-webkit-animation-delay:.8s}
+.delay6{-webkit-animation-delay:1s}
+.delay7{-webkit-animation-delay:1.2s}
+.delay8{-webkit-animation-delay:1.4s}
+.delay9{-webkit-animation-delay:1.6s}
+.delay10{-webkit-animation-delay:1.8s}
+.titulo{font-size:64px;color:#a31e4a;margin-top:20px;margin-bottom:20px}
+.titulomodulo{font-size:47px;color:#a31e4a;margin-top:200px;text-align:center;display:block;position:absolute;width:84%}
+#areadetrabajo{width:800px;height:485px;margin-left:125px;margin-top:30px}
+.subtitulo{background:url(../img/backsubtitulo1.png);width:312px;height:24px;color:#fff;padding-left:10px;background-repeat:no-repeat;padding-top:8px;margin-bottom:10px;margin-left:-26px}
+.subtitulo2{background:url(../img/backsubtitulo2.png);width:291px;height:24px;color:#fff;padding-left:10px;background-repeat:no-repeat;padding-top:8px;margin-top:-10px;margin-left:-26px}
+.subtitulo3{background:url(../img/backsubtitulo3.png);width:686px;height:32px;color:#fff;padding-left:10px;background-repeat:no-repeat;padding-top:8px;margin-top:-10px;margin-left:-26px}
+.subtitulo4{background:url(../img/backsubtitulo4.png);width:418px;height:24px;color:#fff;padding-left:10px;background-repeat:no-repeat;padding-top:8px;margin-bottom:10px;margin-left:-26px}
+.subtitulo5{background:url(../img/backsubtitulo5.png);width:720px;height:24px;color:#fff;padding-left:10px;background-repeat:no-repeat;padding-top:8px;margin-bottom:10px;margin-left:-26px}
+
+.marca{color:#a31e4a;font-family:'news_gothic_stdbold'}
+.mitad{width:376px;border-right:2px solid #666;padding-right:20px;height:80%;float:left}
+table{position:relative;z-index:2;font-family:'news_gothicregular';font-size:14px;width:90%;margin:0 auto}
+table thead{background:#a31e4a;color:#fff;text-align:center}
+table thead tr th{padding:10px 0;text-align:center}
+table tbody tr td{padding:5px;vertical-align:middle;line-height:normal;border:1px solid}
+textarea{width:500px;height:50px;border:none;outline:none}
+img#m1s1-1{position:absolute;left:223px;top:197px}
+.separador1{width:500px;height:2px;background:#7f7f7f}
+.separador2{width:500px;height:2px;background:#EEBDDA}
+#cajaizqm1s1-5{width:70px;height:60px;background:#a51e4a;position:absolute;top:370px;left:99px}
+#roundm1s1-5{border:8px solid #dd6993;-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;padding-top:20px;padding-right:20px;position:absolute;left:145px;top:315px;width:600px;background:#fff;z-index:2}
+#round-m1-s6{border:8px solid #a51e4a;position:relative;z-index:2;-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;padding:20px;width:535px;margin:0 auto;background:#e2e2e2}
+.sacropenia{background:url(../img/Sarcopenia.png);width:979px;height:498px;position:absolute;z-index:0;top:73px}
+.sacropenia2{background:url(../img/Sarcopenia2.jpg);width:979px;height:498px;position:absolute;z-index:0;top:73px}
+img.m2conteo{margin:5px 0}
+a#m2figura22{position:absolute;margin-left:44px;margin-top:-50px}
+.m2figura22{position:absolute;top:50%;left:50%;margin-top:-257px;margin-left:-445px}
+a#m2figura23{position:absolute;margin-left:135px;margin-top:-50px}
+#overlay{width:979px;height:629px;position:fixed;background:url(../img/pixel.png);z-index:4;display:none}
+.orator{font-family:'Orator Std'!important}
+a#m2figura28{position:absolute;right:18px;top:114px}
+#m2figura34{display:block;margin-left:100px}
+.m2figura28{position:absolute;top:50%;left:50%;margin-top:-217px;margin-left:-340px}
+.tac{text-align:center}
+a#m2figura29{position:absolute;left:443px;top:258px}
+a#m2figura30{position:absolute;left:565px;top:314px}
+img#m2figura29img{position:absolute;left:98px;top:315px;display:none}
+img#m2figura30img{position:absolute;right:0;top:130px;display:none}
+
+
+
+
+img.m2figura34 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -325px;
+    margin-top: -157px;
+}
+#m2figuraslide24{
+        position: absolute;
+    right: 74px;
+    top: 233px;
+}
+
+#m2figuraslide24img{
+        position: absolute;
+    right: 0;
+    top: 340px;
+    display: none
+}
