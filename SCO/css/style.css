@@ -66,9 +66,18 @@ img#m1s1-1{position:absolute;left:223px;top:197px}
 .backmodulo3{background:url(../img/backm3.png);width:979px;height:498px;position:absolute;z-index:0;top:73px}
 .sacropenia2{background:url(../img/Sarcopenia2.jpg);width:979px;height:498px;position:absolute;z-index:0;top:73px}
 img.m2conteo{margin:5px 0}
-a#m2figura22{position:absolute;margin-left:44px;margin-top:-50px}
+a#m2figura22{
+	    position: absolute;
+    left: 441px;
+    top: 100px;
+    z-index: 3;
+}
 .m2figura22{position:absolute;top:50%;left:50%;margin-top:-257px;margin-left:-445px}
-a#m2figura23{position:absolute;margin-left:135px;margin-top:-50px}
+a#m2figura23{
+    position: absolute;
+     left: 541px;
+    top: 100px;
+    z-index: 3;}
 #overlay{width:979px;height:629px;position:fixed;background:url(../img/pixel.png);z-index:4;display:none}
 .orator{font-family:'Orator Std'!important}
 a#m2figura28{position:absolute;right:18px;top:114px}
