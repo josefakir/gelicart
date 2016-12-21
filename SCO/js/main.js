@@ -238,4 +238,5 @@ $(document).ready(function(){
 		$('#overlay').html('<img class="m3figura53" src="img/paginas/m3/s22_4.png">');
 		$('#overlay').fadeIn('fast');
 	});
+	$('.sprite').sprite({fps: 10, no_of_frames: 10,start_at_frame: 1});
 });
