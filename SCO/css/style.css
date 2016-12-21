@@ -7,7 +7,7 @@ blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
 table{border-collapse:collapse;border-spacing:0}
 @font-face{font-family:'news_gothic_stdbold';src:url(../fonts/news_gothic_std_bold-webfont.woff2) format("woff2"),url(../fonts/news_gothic_std_bold-webfont.woff) format("woff");font-weight:400;font-style:normal}
 @font-face{font-family:'news_gothicregular';src:url(../fonts/ufonts.com_news-gothic-regular-webfont.woff2) format("woff2"),url(../fonts/ufonts.com_news-gothic-regular-webfont.woff) format("woff");font-weight:400;font-style:normal}
-@font-face{font-family:'Orator Std';src:url(../OratorStd.eot);src:url(../OratorStd.eot?#iefix) format("embedded-opentype"),url(../OratorStd.woff2) format("woff2"),url(../OratorStd.woff) format("woff"),url(../OratorStd.svg#OratorStd) format("svg");font-weight:400;font-style:normal;font-stretch:normal;unicode-range:U+0020-00FE}
+@font-face{font-family:'Orator Std';src:url(../fonts/OratorStd.eot);src:url(../fonts/OratorStd.eot?#iefix) format("embedded-opentype"),url(../fonts/OratorStd.woff2) format("woff2"),url(../fonts/OratorStd.woff) format("woff"),url(../fonts/OratorStd.svg#OratorStd) format("svg");font-weight:400;font-style:normal;font-stretch:normal;unicode-range:U+0020-00FE}
 body{font-family:'news_gothic_stdbold'}
 #contmenulateral{position:relative;z-index:3}
 div#wrap{width:979px;height:629px;position:relative;overflow:hidden}
@@ -66,22 +66,13 @@ img#m1s1-1{position:absolute;left:223px;top:197px}
 .backmodulo3{background:url(../img/backm3.png);width:979px;height:498px;position:absolute;z-index:0;top:73px}
 .sacropenia2{background:url(../img/Sarcopenia2.jpg);width:979px;height:498px;position:absolute;z-index:0;top:73px}
 img.m2conteo{margin:5px 0}
-a#m2figura22{
-	    position: absolute;
-    left: 441px;
-    top: 100px;
-    z-index: 3;
-}
+a#m2figura22{position:absolute;left:441px;top:100px;z-index:3}
 .m2figura22{position:absolute;top:50%;left:50%;margin-top:-257px;margin-left:-445px}
-a#m2figura23{
-    position: absolute;
-     left: 541px;
-    top: 100px;
-    z-index: 3;}
+a#m2figura23{position:absolute;left:541px;top:100px;z-index:3}
 #overlay{width:979px;height:629px;position:fixed;background:url(../img/pixel.png);z-index:4;display:none}
 .orator{font-family:'Orator Std'!important}
 a#m2figura28{position:absolute;right:18px;top:114px}
-#m2figura34{display:block;margin-left:100px}
+#m2figura34{position:absolute;top:359px;left:510px}
 .m2figura28{position:absolute;top:50%;left:50%;margin-top:-217px;margin-left:-340px}
 .tac{text-align:center}
 a#m2figura29{position:absolute;left:443px;top:258px}
@@ -90,7 +81,7 @@ img#m2figura29img{position:absolute;left:98px;top:315px;display:none}
 img#m2figura30img{position:absolute;right:0;top:130px;display:none}
 .botonanimado{-webkit-animation-iteration-count:infinite!important;display:block}
 img.m2figura34{position:absolute;left:50%;top:50%;margin-left:-325px;margin-top:-157px}
-#m2figuraslide24{position:absolute;right:74px;top:233px}
+#m2figuraslide24{position:absolute;right:74px;top:233px;z-index:2}
 #m2figuraslide24img{position:absolute;right:0;top:340px;display:none}
 .pixelgris{background:url(../img/pixelgris.png);border:1px solid #969696;padding:10px}
 img.m3figura37{position:absolute;top:100px;left:135px}
@@ -108,4 +99,6 @@ img.m3figura50{position:absolute;top:100px;left:187px}
 img.m3figura51{position:absolute;top:100px;left:187px}
 img.m3figura52{position:absolute;top:100px;left:187px}
 img.m3figura53{position:absolute;top:100px;left:187px}
-.sprite{background: url(../img/efect.png); width: 55px; height: 55px; position: absolute; left: 5px}
+img.m3figura54{position:absolute;top:100px;left:187px}
+img.m3figura55{position:absolute;top:100px;left:187px}
+.sprite{background:url(../img/efect.png);width:44px;height:45px;position:absolute;opacity:.8}

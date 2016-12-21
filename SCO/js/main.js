@@ -121,6 +121,7 @@ $(document).ready(function(){
 	});
 	$('#m2figuraslide24').click(function(e){
 		e.preventDefault();
+		$('#m2figuraslide24img').removeClass('animated');
 		$('#m2figuraslide24img').toggle();
 	});
 
@@ -238,5 +239,20 @@ $(document).ready(function(){
 		$('#overlay').html('<img class="m3figura53" src="img/paginas/m3/s22_4.png">');
 		$('#overlay').fadeIn('fast');
 	});
-	$('.sprite').sprite({fps: 10, no_of_frames: 10,start_at_frame: 1});
+	$('#m3figura54').click(function(e){
+		e.preventDefault();
+		$('#overlay').html('<img class="m3figura54" src="img/paginas/m3/s22_7.png">');
+		$('#overlay').fadeIn('fast');
+	});
+	$('#m3figura55').click(function(e){
+		e.preventDefault();
+		$('#overlay').html('<img class="m3figura55" src="img/paginas/m3/s22_8.png">');
+		$('#overlay').fadeIn('fast');
+	});
+	$('.sprite').sprite({fps: 6, no_of_frames: 10,start_at_frame: 1});
+	$('#cerrarcolageno').click(function(e){
+		e.preventDefault();
+		$('#mostrarcolagenotipo1').hide();
+	})
+	
 });

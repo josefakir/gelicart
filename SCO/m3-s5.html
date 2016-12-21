@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/jquery.spritely.js"></script>
 	<script src="js/main.js"></script>
 </head>
 <body>
@@ -43,18 +44,22 @@
 			<p style="width: 300px">Ambos componentes de <span class="marca">Gelicart® Action</span> son producidos a partir de una misma materia prima: <span class="marca">el colágeno tipo I derivado de la piel porcina.</span></p>
 			<p style="width: 300px">Para la producción de las Proteínas Bioactivas y de los Péptidos de Colágeno Bioactivos (Fortigel®) se utilizan enzimas específicas diferenciadas, para cada caso, dividiendo la molécula de colágeno tipo I en péptidos exclusivos y diferentes.</p>
 			<p>&nbps;</p>
-			<a href="" id="colagenotipo1" class="botonanimado animated pulse"><img src="img/paginas/m3/s5_2.png" alt=""></a>
-			<img id="mostrarcolagenotipo1" src="img/paginas/m3/s5_4.png" alt="" style="    position: absolute;
-    top: 94px;
-    z-index: 2;
-    left: 105px; display: none">
+			<a href="" id="colagenotipo1" style="position: relative;"><div class="sprite" style="    left: 121px;top: -63px;"></div><img src="img/paginas/m3/s5_2.png" alt=""></a>
+			<div id="mostrarcolagenotipo1" style="position: absolute;top: 94px;z-index: 2;left: 105px; display: none">
+				<a href="#" id="cerrarcolageno" style="    position: absolute;
+    right: -20px;
+    top: -20px;"><img src="img/cerrar.png" alt=""></a>
+				<img src="img/paginas/m3/s5_4.png" alt="" >
+			</div>
 			</div>
 			<div class="mitad" style="border: none;">
 				<img src="img/paginas/m3/s5_1.png" alt="">
 				<br>
 				<br>
-				<p style="font-size: 15px">Para la producción de los componentes de Gelicart® Action (Proteínas Bioactivas y Péptidos de Colágeno Bioactivos) se usan dos conjuntos distintos de enzimas específicas y exclusivas para la hidrólisis enzimática del colágeno tipo I, produciendo dos conjuntos distintos de péptidosos de colágeno (Figura 38) entonces denominados didácticamente Proteínas Bioactivas (para nutrición de los músculos) y Péptidos de Colágeno Bioactivos (para nutrición de los cartílagos de las articulaciones).</p>
-				<a href="#" class="botonanimado animated pulse" id="m3figura38"><img src="img/paginas/m3/s5_3.png" alt="" style="margin: 0 auto;display: block;"></a>
+				<p style="font-size: 15px">Para la producción de los componentes de Gelicart® Action (Proteínas Bioactivas y Péptidos de Colágeno Bioactivos) se usan dos conjuntos distintos de enzimas específicas y exclusivas para la hidrólisis enzimática del colágeno tipo I, produciendo dos conjuntos distintos de péptidos de colágeno (<span class="marca">Figura 38</span>) entonces denominados didácticamente Proteínas Bioactivas (para nutrición de los músculos) y Péptidos de Colágeno Bioactivos (para nutrición de los cartílagos de las articulaciones).</p>
+				<a href="#" id="m3figura38" style="position: relative;"><span class="sprite" style="    left: 126px;
+    z-index: 2;
+    top: 3px;"></span><img src="img/paginas/m3/s5_3.png" alt="" style="margin: 0 auto;display: block;"></a>
 			</div>
 		</div>
 		<div id="footer"><img id="logosanofi" src="img/logosanofi.png" alt=""></div>
