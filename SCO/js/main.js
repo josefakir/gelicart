@@ -217,6 +217,10 @@ $(document).ready(function(){
 		$('#overlay').html('<img class="m3figura47" src="img/paginas/m3/s15_2.png">');
 		$('#overlay').fadeIn('fast');
 	});
+	$('#m3figura49').click(function(e){
+		e.preventDefault();
+		$('#mostrarm3figura49').toggle();
+	});
 
 	$('#m3figura50').click(function(e){
 		e.preventDefault();
