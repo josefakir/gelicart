@@ -102,3 +102,7 @@ img.m3figura53{position:absolute;top:100px;left:187px}
 img.m3figura54{position:absolute;top:100px;left:187px}
 img.m3figura55{position:absolute;top:100px;left:187px}
 .sprite{background:url(../img/efect.png);width:44px;height:45px;position:absolute;opacity:.8}
+a.disabled {
+   pointer-events: none;
+   cursor: wait !important;
+}
