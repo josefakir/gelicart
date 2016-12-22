@@ -219,6 +219,7 @@ $(document).ready(function(){
 	});
 	$('#m3figura49').click(function(e){
 		e.preventDefault();
+		$('#mostrarm3figura49').removeClass('animated');
 		$('#mostrarm3figura49').toggle();
 	});
 
