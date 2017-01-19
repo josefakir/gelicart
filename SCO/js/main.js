@@ -6,10 +6,6 @@ $(document).ready(function(){
 	var hijos = $('#areadetrabajo').children();
 	var cont = 1;
 	animaciones = [
-		//'pulse',
-		//'rubberBand',
-		//'tada',
-		//'jello',
 		'fadeIn',
 		'fadeInDown',
 		'fadeInDownBig',
@@ -19,20 +15,6 @@ $(document).ready(function(){
 		'fadeInRightBig',
 		'fadeInUp',
 		'fadeInUpBig',
-		//'flipInX',
-		//'flipInY',
-		//'lightSpeedIn',
-		//'rotateIn',
-		//'rotateInDownLeft',
-		//'rotateInDownRight',
-		//'rotateInUpLeft',
-		//'rotateInUpRight',
-		//'rollIn',
-		//'zoomIn',
-		//'zoomInDown',
-		//'zoomInLeft',
-		//'zoomInRight',
-		//'zoomInUp',
 		'slideInDown',
 		'slideInLeft',
 		'slideInRight',
@@ -52,7 +34,6 @@ $(document).ready(function(){
 				$( this ).addClass(delay);
 				cont++;
 			}
-			
 		}else if($( this ).is( "table" )){
 			$( this ).addClass('animated');
 			$( this ).addClass('fadeIn');
@@ -70,10 +51,55 @@ $(document).ready(function(){
 			$( this ).addClass('fadeInLeft');
 			
 		}
-
-		
-
-		
+	});
+	var hijos = $('#areatenis').children();
+	var cont = 1;
+	animaciones = [
+		'fadeIn',
+		'fadeInDown',
+		'fadeInDownBig',
+		'fadeInLeft',
+		'fadeInLeftBig',
+		'fadeInRight',
+		'fadeInRightBig',
+		'fadeInUp',
+		'fadeInUpBig',
+		'slideInDown',
+		'slideInLeft',
+		'slideInRight',
+		'slideInUp'
+	];
+	hijos.each(function( index ) {
+		//console.log( index + ": " + $( this ));
+		if($( this ).is( "img" )){
+			if($(this).hasClass( "fadeIzquierda" )){
+				$( this ).addClass('animated');
+				$( this ).addClass('fadeInLeft');
+			}else{
+				$( this ).addClass('animated');
+				var item = animaciones[Math.floor(Math.random()*animaciones.length)];
+				$( this ).addClass(item);
+				delay = 'delay'+cont;
+				$( this ).addClass(delay);
+				cont++;
+			}
+		}else if($( this ).is( "table" )){
+			$( this ).addClass('animated');
+			$( this ).addClass('fadeIn');
+		}else if($( this ).is( ".m2conteo" )){
+			$( this ).addClass('animated');
+			$( this ).addClass('fadeInLeft');
+			//console.log('conteo');
+		}else if($(this).hasClass( "botonanimado" )){
+				$( this ).addClass('animated');
+			$( this ).addClass('pulse');
+			console.log('boton')
+		}
+		else{
+			$( this ).addClass('animated');
+			$( this ).addClass('fadeInLeft');
+			
+		}
 	});
 	$('#triggerinfo').click(function(e){
 		e.preventDefault();
