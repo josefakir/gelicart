@@ -101,6 +101,55 @@ $(document).ready(function(){
 			
 		}
 	});
+	var hijos = $('#area5').children();
+	var cont = 1;
+	animaciones = [
+		'fadeIn',
+		'fadeInDown',
+		'fadeInDownBig',
+		'fadeInLeft',
+		'fadeInLeftBig',
+		'fadeInRight',
+		'fadeInRightBig',
+		'fadeInUp',
+		'fadeInUpBig',
+		'slideInDown',
+		'slideInLeft',
+		'slideInRight',
+		'slideInUp'
+	];
+	hijos.each(function( index ) {
+		//console.log( index + ": " + $( this ));
+		if($( this ).is( "img" )){
+			if($(this).hasClass( "fadeIzquierda" )){
+				$( this ).addClass('animated');
+				$( this ).addClass('fadeInLeft');
+			}else{
+				$( this ).addClass('animated');
+				var item = animaciones[Math.floor(Math.random()*animaciones.length)];
+				$( this ).addClass(item);
+				delay = 'delay'+cont;
+				$( this ).addClass(delay);
+				cont++;
+			}
+		}else if($( this ).is( "table" )){
+			$( this ).addClass('animated');
+			$( this ).addClass('fadeIn');
+		}else if($( this ).is( ".m2conteo" )){
+			$( this ).addClass('animated');
+			$( this ).addClass('fadeInLeft');
+			//console.log('conteo');
+		}else if($(this).hasClass( "botonanimado" )){
+				$( this ).addClass('animated');
+			$( this ).addClass('pulse');
+			console.log('boton')
+		}
+		else{
+			$( this ).addClass('animated');
+			$( this ).addClass('fadeInLeft');
+			
+		}
+	});
 	$('#triggerinfo').click(function(e){
 		e.preventDefault();
 		window.open("info.html", "popupWindow", "width=500, height=321, scrollbars=no");
@@ -285,5 +334,25 @@ $(document).ready(function(){
 		e.preventDefault();
 		$('#mostrarcolagenotipo1').hide();
 	})
-	
+	$('#m5s5b1').click(function(e){
+		e.preventDefault();
+		$('#img_m5s5b1').hide();
+		$('#img_m5s5b2').hide();
+		$('#img_m5s5b3').hide();
+		$('#img_m5s5b1').fadeIn('fast');
+	});
+	$('#m5s5b2').click(function(e){
+		e.preventDefault();
+		$('#img_m5s5b1').hide();
+		$('#img_m5s5b2').hide();
+		$('#img_m5s5b3').hide();
+		$('#img_m5s5b2').fadeIn('fast');
+	});
+	$('#m5s5b3').click(function(e){
+		e.preventDefault();
+		$('#img_m5s5b1').hide();
+		$('#img_m5s5b2').hide();
+		$('#img_m5s5b3').hide();
+		$('#img_m5s5b3').fadeIn('fast');
+	});
 });
